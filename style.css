@@ -1,0 +1,105 @@
+/* Reset beberapa nilai default browser */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Pengaturan font utama */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Judul halaman */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Subjudul dalam bagian */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Navigasi */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Warna kuning saat dihover */
+}
+
+/* Gambar proyek */
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project img:hover {
+    transform: scale(1.1); /* Perbesar gambar saat dihover */
+}
+
+/* Bagian portofolio */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Angkat proyek saat dihover */
+}
+
+/* Kontak */
+#contact {
+    background: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
